@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
         Instantiate(square);
     }
+
     public void GameOver()
     {
         if(PlayerPrefs.HasKey("MaxScore") == false)
